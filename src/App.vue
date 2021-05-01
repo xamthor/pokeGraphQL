@@ -13,7 +13,7 @@
 			</select>
 			<button @click="gen = ''">Clear</button>
 			<div v-if="gen">
-				<HelloWorld :gen="gen"/>
+				<GenSelect :gen="gen"/>
 			</div>
 		</div>
 		<div><Generation/></div>
